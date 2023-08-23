@@ -35,4 +35,6 @@ const kullanici2 = {
 const ayse = kullaniciBilgisi(kullanici2);
 console.log(ayse);
 
-console.log(kullaniciBilgisi(kullanici1))
+console.log(kullaniciBilgisi(kullanici1));
+
+
