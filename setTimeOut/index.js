@@ -11,7 +11,7 @@ setTimeout(() => {
   }, 2000);
   //setInterval o aralıklarla hep çalışır
    
-  clearInterval(zamanlayici);
+  clearInterval(zamanlayici); // fonksiyonu durdurur
 
 
 
