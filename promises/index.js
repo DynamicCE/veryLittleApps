@@ -28,5 +28,5 @@ const wait = (ms) => {
     })
     .catch((error) => {
       console.log(error); // Bir hata oluştu.
-    });
+    }); //.
   
