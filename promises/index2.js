@@ -16,7 +16,7 @@ myPromise
 
 .then((message)=>{
      console.log(message); 
-})
+}) // .then'in içine bir fonksiyon gönderiyoruz
 .catch((error)   =>{
     console.log(error);
 });
