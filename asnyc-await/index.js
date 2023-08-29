@@ -31,8 +31,21 @@ const myAsyncFunction = async () => {
 
   // Asenkron fonksiyon
 
-  const myFunction = async () =>{
-    return await new Promise((resolve,reject){
-      // code in here
+  const myFunction = async () =>{ // fonksiyoınu async tanımladık çünkü bir promise döndürecek
+    return await new Promise((resolve,reject)=>{ // fonksiyonun döndüreceği promise'ı await tanımladık
+      setTimeout(()=>{
+        console.log("kodunuz çalıştı"),2000
+      });
     });
   }
+
+  // Asenkron fonksiyon
+
+
+let asyncFunction = async () =>{
+  await new Promise((resolve,reject)=>{ // promise'ın içine , resolve ve rejecti parametre olarak alan bir fonksiyon gönderiyoruz.
+    setTimeout(()=>{ // resolve ve rejecti parametre alan fonksiyon da setTimeout fonksiyonu döndürüyor.
+      resolve("kod calisti");
+    },2000);
+  })
+}
