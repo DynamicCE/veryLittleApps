@@ -1,2 +1,2 @@
 # veryLittleApps
-these are my micro projects, they are not important
+these are my micro projects, there is no big deal.
