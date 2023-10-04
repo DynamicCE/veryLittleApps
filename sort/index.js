@@ -19,7 +19,7 @@ let sonuc2 = numbers.sort((a,b)=>{
     return b-a;
 });
 
-console.log(sonuc2);
+
 
 // burada da fonksiyonun negatif değer döndürmesi için a 'nın büyük olması lazım.
 // negatif değer döndürünce a önce geliyordu unutmayalım, bu yüzden de büyük sayılar öne gelir.
