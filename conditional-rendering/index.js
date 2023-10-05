@@ -6,7 +6,8 @@ function App() {
   return (
     <>
       isLoggedIn ? <p>Hoşgeldiniz, giriş yapıldı</p> : <p>Giriş yapınız</p>
-      isLoggedIn && isAdmin && <p>Admin girişi</p>
+      isLoggedIn && isAdmin && <p>Admin girişi</p>{" "}
+      {/* if isLoggedIn and isAdmin is true, then render <p>Admin girişi</p> */}
     </>
   );
 }
