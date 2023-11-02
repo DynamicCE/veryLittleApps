@@ -17,3 +17,4 @@ isTrue = true;
 import classNames from 'classnames';
 {/* after install and import classnames library, we define a class object*/}
 const btnClass = classNames('main-class' , {'if-true' : isActive});
+{/* first we wrote the classname inside curly brackets and then the condition */}
