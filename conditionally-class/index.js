@@ -18,3 +18,4 @@ import classNames from 'classnames';
 {/* after install and import classnames library, we define a class object*/}
 const btnClass = classNames('main-class' , {'if-true' : isActive});
 {/* first we wrote the classname inside curly brackets and then the condition */}
+<div className={btnClass}>and that is the usage of classnames library</div>
