@@ -6,6 +6,7 @@ import reportWebVitals from "./reportWebVitals";
 import StateBank from "./components/use-state";
 import StateButton from "./components/button";
 import StateButton2 from "./components/button2";
+import Button3 from "./components/button3";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -13,6 +14,7 @@ root.render(
     <StateBank />
     <StateButton />
     <StateButton2 />
+    <Button3 />
   </React.StrictMode>
 );
 
